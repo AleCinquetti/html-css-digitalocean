@@ -34,3 +34,7 @@ li a {
 .logos {
     align-items: center;
 }
+
+.carousel img {
+    width: 100%;
+}
