@@ -6,7 +6,7 @@
 }
 /* HEADER */
 
-/* NAV */
+/* NAV GENERALI */
 nav {
     padding: 20px;
     background-color: #f3f5f9;
@@ -42,6 +42,8 @@ nav {
     font-weight: 600;
 }
 
+/* JUMBOTRON */
+
 .jumbo {
     background-image: url(../img/bg-home-1-d54581d7.jpg);
     background-size: cover;
@@ -50,6 +52,8 @@ nav {
     margin-top: 70px;
 }
 
+
+/* LEFT JUMBO */
 .jumbo h1 {
     font-size: 62px;
     color: white;
@@ -65,7 +69,7 @@ nav {
 }
 
 
-
+/* RIGHT JUMBO (INPUT) */
 .subscribe {
     background: white;
     padding: 20px 10px 40px 10px;
@@ -127,11 +131,15 @@ nav {
     margin-right: 15px;
 }
 
+/* MAIN */
+
+
+
+/* LOGOS */
 .images-box {
     padding: 20px 0;
     text-align: center;
 }
-
 
 .images-box img {
     width: 13%;
@@ -153,6 +161,7 @@ nav {
 }
 
 
+/* FEATURES */
 .features {
     padding: 40px 0;
 }
@@ -166,10 +175,10 @@ nav {
 .features p {
     color: #9ba3b7;
     font-size: 20px;
-    /* padding-bottom: 40px; */
     margin: 30px 0 50px 0;
 }
 
+/* FEATURES: LEFT LIST */
 .features ul {
     list-style-type: none;
     border-left: 1px solid #9ba3b7;
@@ -181,6 +190,8 @@ nav {
     color: #9ba3b7;
 }
 
+
+/* FEATURER: RIGHT BOXES */
 .box h5 {
     font-size: 18px;
     color: #031c4e;
@@ -195,6 +206,7 @@ nav {
 }
 
 
+/* CAROUSEL */
 .carousel {
     background: #f3f5f9;
     padding: 40px 0 80px 0;
@@ -228,6 +240,26 @@ nav {
     margin-top: 20px;
 }
 
+/* ALTRA SEZIONE CAROUSEL  */
+.opinions {
+    background: white;
+    padding: 40px 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.opinions h4, h6 {
+    color: #9ba3b7;
+}
+
+.opinions img {
+    width: 30%;
+    margin: auto;
+}
+
+
+
+/* SPECS */
 .specs {
     padding: 40px 0 80px 0;
 }
@@ -239,6 +271,8 @@ nav {
     font-weight: 700;
 }
 
+
+/* GRID COUNTRIES */
 .countries {
     background: #031b4e;
     color: white;
@@ -251,6 +285,8 @@ nav {
     font-weight: 700;
 }
 
+
+/* INDICAZIONI SINGOLA RIGA GRIGLIA + CLEAR */
 .single-row {
     padding: 10px 0;
 }
@@ -283,23 +319,10 @@ nav {
     font-weight: 600;
 }
 
-.opinions {
-    background: white;
-    padding: 40px 0;
-    border-radius: 5px;
-    margin-top: 40px;
-}
 
-.opinions h4, h6 {
-    color: #9ba3b7;
-}
+/* FOOTER */
 
-.opinions img {
-    width: 30%;
-    margin: auto;
-}
-
-
+/* HIGH FOOTER: "MAKE AN ACCOUNT" */
 .high-footer {
     background-image: url(../img/bg-home-1-d54581d7.jpg);
     background-size: cover;
@@ -323,14 +346,12 @@ nav {
     font-weight: 700;
 }
 
+
+/* MAIN-FOOTER: LISTS & COPYRIGHT */
 .main-footer {
     background: #031c4e;
     color: #9ba3b7;
     padding: 50px 0;
-}
-
-.social-box > i {
-    margin-right: 10px;
 }
 
 .main-footer p {
@@ -353,6 +374,11 @@ nav {
 
 .main-footer ul li a {
     color: #9ba3b7;
+}
+
+/* SOCIAL BOX */
+.social-box > i {
+    margin-right: 10px;
 }
 
 .main-footer i {

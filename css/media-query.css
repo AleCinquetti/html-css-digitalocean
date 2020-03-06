@@ -1,3 +1,4 @@
+/* XS */
 @media screen and (max-width: 768px) {
     .center, .right {
         display: none;
@@ -31,6 +32,8 @@
 }
 
 
+
+/* SM */
 @media screen and (min-width:769px) and (max-width:992px) {
     .center, .right {
         display: none;
@@ -53,7 +56,7 @@
     }
 }
 
-
+/* LG */
 @media screen and (min-width:1200px){
 
   #ham {
