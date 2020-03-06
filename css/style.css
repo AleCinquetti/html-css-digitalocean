@@ -12,82 +12,140 @@ nav {
     background-color: #f3f5f9;
 }
 
-.center li, .right li {
+.center > li, .right > li {
     display: inline-block;
     padding-top: 5px;
 }
 
-li a {
-    margin: 0 0 0 13px;
+.center > li > a, .right > li > a {
+    margin: 0 0 0 15px;
     text-decoration: none;
     font-size: 14px;
     color: #0c2454;
+    font-weight: 600;
+}
+
+.center > li > a > i, .right > li > a > i {
+    margin-left: 3px;
+}
+
+#signup {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0.5px solid #0069ff;
+    color: #0069ff;
+    font-weight: 600;
 }
 
 .jumbo {
     background-image: url(../img/bg-home-1-d54581d7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 0;
-    margin-top: 80px;
+    padding: 150px 0;
+    margin-top: 70px;
 }
 
 .jumbo h1 {
     font-size: 62px;
     color: white;
     padding-right: 10px;
+    font-weight: 700;
 }
 
 .jumbo p {
     font-size: 24px;
     color: #bbcdff;
+    margin-top: 10px;
+    font-weight: 500;
 }
+
+
 
 .subscribe {
     background: white;
-    padding: 20px 0;
-    border-radius: 3px;
+    padding: 20px 10px 40px 10px;
+    border-radius: 10px;
 }
 
 .subscribe h2 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #031c4e;
+}
+
+.subscribe h5 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #0069ff;
 }
 
 .subscribe input {
     display: block;
     width: 90%;
     padding: 3px;
-    margin: 5px auto;
+    margin: 10px auto;
+    height: 50px;
+}
+
+.subscribe #create {
+    background: #579aff;
+    border: none;
+    color: white;
+    font-weight: 600;
 }
 
 .subscribe .account {
-    border: 1px solid black;
+    border: 0.5px solid #9ba3b7;
     display: block;
     width: 90%;
     text-decoration: none;
-    margin: 5px auto;
-    border-radius: 3px;
+    margin: 10px auto;
+    border-radius: 5px;
     text-align: center;
-    padding: 5px 0;
+    padding: 15px 0;
+    font-weight: 600;
+    color: #9ba3b7;
 }
 
 .subscribe #sub {
     text-align: center;
     font-size: 12px;
-    color: black;
+    color: #031c4e;
     margin-top: 10px;
+    font-weight: 300;
+}
+
+.subscribe i {
+    margin-right: 15px;
+}
+
+.images-box {
+    padding: 20px 0;
 }
 
 
-.logos img {
-    width: 100%;
-    margin: auto;
+.images-box img {
+    width: 15%;
+    vertical-align: middle;
+    margin: 0 7px;
 }
 
 .logos {
     align-items: center;
     background: #f3f5f9;
+    padding: 40px 0;
 }
+
+.logos h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #9ba3b7;
+    margin-bottom: 20px;
+}
+
 
 .features {
     padding: 40px 0;
@@ -96,12 +154,14 @@ li a {
 .features h3 {
     color: #031c4e;
     font-size: 36px;
+    font-weight: 700;
 }
 
 .features p {
     color: #9ba3b7;
     font-size: 20px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
+    margin: 30px 0 50px 0;
 }
 
 .features ul {
@@ -118,23 +178,26 @@ li a {
 .box h5 {
     font-size: 18px;
     color: #031c4e;
-    font-weight: 500;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 .box p {
     font-size: 16px;
     color: #9ba3b7;
+    line-height: 1.7em;
 }
 
 
 .carousel {
     background: #f3f5f9;
-    padding: 40px 0;
+    padding: 40px 0 80px 0;
 }
 
 .carousel h3 {
     color: #031c4e;
     font-size: 36px;
+    font-weight: 700;
 }
 
 .carousel p {
@@ -154,6 +217,11 @@ li a {
     width: 100%;
 }
 
+.circles {
+    color: #0069ff;
+    margin-top: 20px;
+}
+
 .specs {
     padding: 40px 0 80px 0;
 }
@@ -161,30 +229,42 @@ li a {
 .specs h3 {
     color: #031c4e;
     font-size: 36px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-weight: 700;
 }
 
 .countries {
-    background: #170087;
+    background: #031b4e;
     color: white;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .countries h3 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 36px;
+    font-weight: 700;
 }
 
 .single-row {
-    /* border: 1px solid white; */
-    padding: 5px 0;
+    padding: 10px 0;
+}
+
+.single-row .sigla {
+    font-weight: 700;
+}
+
+.single-row .city {
+    font-weight: 300;
+    color: #9ba3b7;
+}
+
+.single-row .test {
+    color: rgb(0, 189, 166);
 }
 
 .border {
-    border-bottom: 1px solid white;
+    border-bottom: 0.2px solid #9ba3b7;
 }
-
-
 
 .single-row::after {
     content: "";
@@ -194,32 +274,57 @@ li a {
 
 .countries span {
     font-size: 13px;
-
+    font-weight: 600;
 }
 
+.opinions {
+    background: white;
+    padding: 40px 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.opinions h4, h6 {
+    color: #9ba3b7;
+}
+
+.opinions img {
+    width: 30%;
+    margin: auto;
+}
+
+
 .high-footer {
-    background: #170087;
-    padding: 60px 0;
+    background-image: url(../img/bg-home-1-d54581d7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0 100px 0;
 }
 
 .high-footer h3 {
-    font-size: 36px;
+    font-size: 30px;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-weight: 700;
 }
 
 .high-footer a {
     font-size: 16px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     background: white;
     border-radius: 3px;
-    color: rgb(7, 4, 66);
+    color: #0069ff;
+    font-weight: 700;
 }
 
 .main-footer {
     background: #031c4e;
-    color: white;
+    color: #9ba3b7;
     padding: 50px 0;
+}
+
+.social-box > i {
+    margin-right: 10px;
 }
 
 .main-footer p {
@@ -237,10 +342,11 @@ li a {
 .main-footer ul li h6 {
     font-size: 16px;
     font-weight: 600;
+    color: white;
 }
 
 .main-footer ul li a {
-    color: white;
+    color: #9ba3b7;
 }
 
 .main-footer i {
