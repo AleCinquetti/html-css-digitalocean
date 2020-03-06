@@ -129,11 +129,12 @@ nav {
 
 .images-box {
     padding: 20px 0;
+    text-align: center;
 }
 
 
 .images-box img {
-    width: 15%;
+    width: 13%;
     vertical-align: middle;
     margin: 0 7px;
 }
