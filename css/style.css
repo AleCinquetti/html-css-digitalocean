@@ -29,6 +29,11 @@ nav {
     margin-left: 3px;
 }
 
+#ham {
+    color: #0069ff;
+    font-size: 20px;
+}
+
 #signup {
     padding: 5px 10px;
     border-radius: 5px;

@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .center, .right {
+        display: none;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .right-grid {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .center, .right {
+        display: none;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .right-grid {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+
+  #ham {
+    display: none;
+  }
+}
